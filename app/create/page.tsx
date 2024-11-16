@@ -50,7 +50,7 @@ export default function Page() {
     const gameState = GameState.create(
       {
         state: GameStateState.Waiting,
-        location: "Budapest",
+        location: "France",
         spy: null,
         activeUsers: ActiveUsersList.create([], { owner: globalReadGroup }),
         killedUsers: KilledUsersList.create([], { owner: globalReadGroup }),
